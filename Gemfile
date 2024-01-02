@@ -42,7 +42,7 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
-gem "ruby_for_grafana_loki", "~> 0.0.8", git: 'https://github.com/tennet0505/31github', branch: "main"
+gem "ruby_for_grafana_loki", "~> 0.0.90", git: 'https://github.com/tennet0505/ruby_for_grafana_loki', branch: "main"
 
 # Use Sass to process CSS
 # gem "sassc-rails"

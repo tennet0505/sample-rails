@@ -1,9 +1,9 @@
 GIT
-  remote: https://github.com/tennet0505/31github
-  revision: 8f804b798110225616e2f126e9b36656d8e8b65d
+  remote: https://github.com/tennet0505/ruby_for_grafana_loki
+  revision: 7bb91206a52a235e77e62008c13027948d1ac99b
   branch: main
   specs:
-    ruby_for_grafana_loki (0.0.8)
+    ruby_for_grafana_loki (0.0.90)
       faraday (~> 2.8.1)
       rspec
       zeitwerk (~> 2.4)
@@ -259,7 +259,7 @@ DEPENDENCIES
   jbuilder
   puma (~> 5.0)
   rails (~> 7.0.2, >= 7.0.2.2)
-  ruby_for_grafana_loki (~> 0.0.8)!
+  ruby_for_grafana_loki (~> 0.0.90)!
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)
