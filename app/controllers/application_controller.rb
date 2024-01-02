@@ -6,7 +6,6 @@ class ApplicationController < ActionController::Base
         Rails.logger.error("[ERROR] This is an error message from the controller.")
         Rails.logger.fatal("[FATAL] This is a fatal error message from the controller.")
         Rails.logger.info("This is an info message from the controller.")
-    
-    
         render plain: "Log messages have been generated. Check the logs for details."
+    end
 end
