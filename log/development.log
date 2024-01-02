@@ -1,0 +1,16 @@
+Processing by Rails::WelcomeController#index as HTML
+Completed 200 OK in 20ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 7355)
+
+
+Processing by Rails::WelcomeController#index as HTML
+Completed 200 OK in 10ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 4223)
+
+
+Processing by Rails::WelcomeController#index as HTML
+Completed 200 OK in 16ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 4223)
+
+
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 725)
+
+

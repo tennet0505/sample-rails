@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class LogTestController
+class LogTestController < ApplicationController
   def log_messages
     Rails.logger.debug("[DEBUG] This is a debug message from the controller.")
     Rails.logger.info("[INFO] This is an info message from the controller.")
