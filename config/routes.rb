@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   get '/rails/info/routes'     , to: "rails/info#routes"
   get '/rails/info'            , to: "rails/info#index"
   get '/'                      , to: "rails/welcome#index"
-  get 'log_test/log_messages'
+  root 'log_test#log_messages'
 end
