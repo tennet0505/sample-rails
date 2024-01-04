@@ -414,3 +414,11 @@ Processing by LogTestController#log_messages as HTML
 Completed 200 OK in 7ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 2518)
 
 
+Processing by Rails::WelcomeController#index as HTML
+Completed 200 OK in 8ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 4256)
+
+
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 7ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 753)
+
+
