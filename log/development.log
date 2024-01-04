@@ -342,3 +342,75 @@ Processing by LogTestController#log_messages as HTML
 Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 230)
 
 
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 65ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 3572)
+
+
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 75ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 1528)
+
+
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 105ms (Views: 46.1ms | ActiveRecord: 0.0ms | Allocations: 3572)
+
+
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 148ms (Views: 26.1ms | ActiveRecord: 0.0ms | Allocations: 1529)
+
+
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 334ms (Views: 93.5ms | ActiveRecord: 0.0ms | Allocations: 1531)
+
+
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 2234)
+
+
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 190)
+
+
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 5ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2285)
+
+
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 113ms (Views: 56.6ms | ActiveRecord: 0.0ms | Allocations: 3572)
+
+
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 84ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 1528)
+
+
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 5ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2266)
+
+
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 222)
+
+
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 5ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 2307)
+
+
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 7ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 2467)
+
+
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 10ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 422)
+
+
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 6ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 2483)
+
+
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 12ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 2483)
+
+
+Processing by LogTestController#log_messages as HTML
+Completed 200 OK in 7ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 2518)
+
+

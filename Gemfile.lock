@@ -1,9 +1,7 @@
-GIT
-  remote: https://github.com/tennet0505/ruby_for_grafana_loki
-  revision: 50deae64fccc8877f237bc36a51dc48ab8d12f4d
-  branch: main
+PATH
+  remote: /Users/olegten/rails_loki_exporter_dev
   specs:
-    ruby_for_grafana_loki (0.0.95)
+    rails_loki_exporter_dev (0.0.8)
       rspec
       zeitwerk (~> 2.4)
 
@@ -251,7 +249,7 @@ DEPENDENCIES
   jbuilder
   puma (~> 5.0)
   rails (~> 7.0.2, >= 7.0.2.2)
-  ruby_for_grafana_loki (~> 0.0.95)!
+  rails_loki_exporter_dev (~> 0.0.8)!
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)
