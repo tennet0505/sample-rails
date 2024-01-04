@@ -2,6 +2,7 @@ require_relative "boot"
 
 require "rails/all"
 require 'ruby_for_grafana_loki'
+# require 'rails_loki_exporter_dev'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -22,13 +23,8 @@ module SampleRails2
     config.after_initialize do
       config_file_path = File.join(Rails.root, 'config', 'config.yml')
       logger = RubyForGrafanaLoki.create_logger(config_file_path)
+      # logger = RailsLokiExporterDev.create_logger(config_file_path)
       Rails.logger = logger
-      Rails.logger.warn("[WARN] This is a warning message from the controller.")
-      Rails.logger.error("[ERROR] This is an error message from the controller.")
-      Rails.logger.fatal("[FATAL] This is a fatal error message from the controller.")
-      Rails.logger.info("This is an info message from the controller.")
-      Rails.logger.info("This is an info message from the controller.")
-      Rails.logger.info("This is an info message from the controller.")
     end
   end
 end
