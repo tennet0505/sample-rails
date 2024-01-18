@@ -43,9 +43,9 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 
-gem "ruby_for_grafana_loki", "~> 0.0.96", git: 'https://github.com/tennet0505/ruby_for_grafana_loki', branch: "main"
+# gem "ruby_for_grafana_loki", "~> 0.0.96", git: 'https://github.com/tennet0505/ruby_for_grafana_loki', branch: "main"
 # gem "ruby_for_grafana_loki", "~> 0.0.93", path: "/Users/olegten/ruby_for_grafana_loki"
-# gem 'rails_loki_exporter_dev', '~> 0.0.8', path: '/Users/olegten/rails_loki_exporter_dev'
+gem 'rails_loki_exporter_dev', '~> 0.0.171', path: '/Users/olegten/rails_loki_exporter_dev'
 # Use Sass to process CSS
 # gem "sassc-rails"
 

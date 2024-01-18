@@ -5,3 +5,4 @@ password: 'glc_eyJvIjoiOTk0MjI2IiwibiI6Im5ld3Rva2VuLWhlbGxvd29ybGRyb3IiLCJrIjoiM
 log_file_path: 'log/development.log'
 logs_type: '%w(ERROR WARN FATAL INFO DEBUG)' # or use logs_type: %w(ERROR WARN FATAL INFO DEBUG)
 intercept_logs: true
+enable_log_subscriber: true

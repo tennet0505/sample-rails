@@ -1,9 +1,8 @@
-GIT
-  remote: https://github.com/tennet0505/ruby_for_grafana_loki
-  revision: a6ee79dab8e4a663bfa62305e01b13e98584cd47
-  branch: main
+PATH
+  remote: /Users/olegten/rails_loki_exporter_dev
   specs:
-    ruby_for_grafana_loki (0.0.96)
+    rails_loki_exporter_dev (0.0.171)
+      faraday (~> 2.6)
       rspec
       zeitwerk (~> 2.4)
 
@@ -77,6 +76,7 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
+    base64 (0.2.0)
     bindex (0.8.1)
     bootsnap (1.17.0)
       msgpack (~> 1.2)
@@ -98,6 +98,11 @@ GEM
       reline (>= 0.3.8)
     diff-lcs (1.5.0)
     erubi (1.12.0)
+    faraday (2.8.1)
+      base64
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-net_http (3.0.2)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.1)
@@ -198,6 +203,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.12.0)
     rspec-support (3.12.1)
+    ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
     selenium-webdriver (4.10.0)
       rexml (~> 3.2, >= 3.2.5)
@@ -251,7 +257,7 @@ DEPENDENCIES
   jbuilder
   puma (~> 5.0)
   rails (~> 7.0.2, >= 7.0.2.2)
-  ruby_for_grafana_loki (~> 0.0.96)!
+  rails_loki_exporter_dev (~> 0.0.171)!
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)
