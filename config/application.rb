@@ -2,8 +2,8 @@ require_relative "boot"
 
 require "rails/all"
 # require 'ruby_for_grafana_loki'
-require 'rails_loki_exporter_dev'
-require 'active_support/log_subscriber'
+require 'rails_loki_exporter'
+# require 'active_support/log_subscriber'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -16,8 +16,7 @@ module SampleRails2
 
     config.after_initialize do
       config_file_path = File.join(Rails.root, 'config', 'config.yml')
-      logger = RailsLokiExporterDev.create_logger(config_file_path)
-
+      logger = RailsLokiExporter.create_logger(config_file_path)
       Rails.logger = logger
     end
   end
