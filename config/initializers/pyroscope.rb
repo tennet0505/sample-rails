@@ -1,7 +1,6 @@
 require 'pyroscope'
     
 Pyroscope.configure do |config|
-    config.autoinstrument_rails = false
     config.application_name = "sample-rails"
     config.server_address = "https://profiles-prod-001.grafana.net"
     config.basic_auth_username = "786746"
