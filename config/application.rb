@@ -14,10 +14,10 @@ module SampleRails2
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
 
-    config.after_initialize do
-      config_file_path = File.join(Rails.root, 'config', 'config.yml')
-      logger = RailsLokiExporter.create_logger(config_file_path)
-      Rails.logger = logger
-    end
+    # config.after_initialize do
+    #   config_file_path = File.join(Rails.root, 'config', 'config.yml')
+    #   logger = RailsLokiExporter.create_logger(config_file_path)
+    #   Rails.logger = logger
+    # end
   end
 end
