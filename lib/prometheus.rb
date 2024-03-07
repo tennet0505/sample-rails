@@ -6,4 +6,4 @@ module Prometheus
         prometheus.register(GAUGE_EXAMPLE)
   
     end
-  end
+end
