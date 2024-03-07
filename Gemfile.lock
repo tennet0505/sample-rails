@@ -133,6 +133,7 @@ GEM
     nokogiri (1.16.0)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
+    prometheus-client (4.2.2)
     psych (5.1.2)
       stringio
     public_suffix (5.0.4)
@@ -246,6 +247,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  prometheus-client
   puma (~> 5.0)
   pyroscope (~> 0.5.10)
   rails (~> 7.0.2, >= 7.0.2.2)

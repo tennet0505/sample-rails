@@ -19,5 +19,6 @@ module SampleRails2
       logger = RailsLokiExporter.create_logger(config_file_path)
       Rails.logger = logger
     end
+    config.autoload_paths << Rails.root.join('lib')
   end
 end
