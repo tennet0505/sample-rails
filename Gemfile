@@ -77,3 +77,4 @@ end
 
 gem "pyroscope", "~> 0.5.10"
 gem 'prometheus-client'
+gem 'jwt'
