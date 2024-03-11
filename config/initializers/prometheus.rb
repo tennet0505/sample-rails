@@ -1,17 +1,19 @@
 require 'prometheus/client'
 require 'net/http'
 
-module Prometheus
-  module Controller
-
+Prometheus::Client.config do |config|
     # Add authentication headers
     auth_token = 'dop_v1_28acd1169ddd5b84fe7eb60cf158e25b573246274251103fb5308a7c9dbfc892'  # Replace 'YOUR_AUTH_TOKEN' with your actual authentication token
     auth_header = "Bearer #{auth_token}"
-
-    # Configure the Prometheus client to include the authentication headers
-    prometheus.config.http do |http_config|
+  
+    # Set the global HTTP headers for the Prometheus client
+    config.http do |http_config|
       http_config.headers['Authorization'] = auth_header
     end
+  end
+
+module Prometheus
+  module Controller
 
     prometheus = Prometheus::Client.registry
     gauge1 = Prometheus::Client::Gauge.new(:prometheus_metrics, docstring:'Health check for Prometheus Metrics')
