@@ -1,6 +1,6 @@
 class AuthService
     def self.generate_token
-      payload = { api_key: ENV['DIGITAL_OCEAN_TOKEN'] }
+      payload = { api_key: 'dop_v1_28acd1169ddd5b84fe7eb60cf158e25b573246274251103fb5308a7c9dbfc892' }
       JWT.encode(payload, Rails.application.secrets.secret_key_base)
     end
   
@@ -9,4 +9,4 @@ class AuthService
     rescue JWT::DecodeError
       nil
     end
-  end
+end
