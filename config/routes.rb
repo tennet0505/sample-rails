@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get '/'                      , to: "rails/welcome#index"
   get '/log_test/log_messages'
   get '/test_gauge', to: 'test#gauge'
+  get '/metrics_v2', to: 'metrics#metrics'
 end
