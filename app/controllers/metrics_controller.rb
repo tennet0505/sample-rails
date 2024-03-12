@@ -8,7 +8,7 @@ class MetricsController < ApplicationController
     private
     
     def authenticate
-      authenticate_or_request_with_http_basic do |username, password|
+        authenticate_or_request_with_http_basic do |username, password|
         username == 'user_name' && password == 'password'
     end
   end

@@ -1651,3 +1651,4 @@ Processing by LogTestController#log_messages as HTML
 Completed 200 OK in 398ms (Views: 382.4ms | ActiveRecord: 0.0ms | Allocations: 1229)
 
 
+Filter chain halted as :authenticate rendered or redirected
