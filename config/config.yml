@@ -1,7 +1,7 @@
 auth_enabled: true
 base_url: 'https://logs-prod-006.grafana.net'
-user_name: '747344'
-password: 'glc_eyJvIjoiOTk0MjI2IiwibiI6Im5ld3Rva2VuLWhlbGxvd29ybGRyb3IiLCJrIjoiMzIwTG02MDkyNUprZTRhTXhXa2RBVjF4IiwibSI6eyJyIjoicHJvZC11cy1lYXN0LTAifX0='
+user_name: <%= ENV['IS_PRODUCTION_CRED'] == 'true' ? '739742' : '747344' %>
+password: <%= ENV['IS_PRODUCTION_CRED'] == 'true' ? 'glc_eyJvIjoiOTg3NzQ5IiwibiI6InBsaGxva2ktcWEtc2VydmVyIiwiayI6IjBONDg5WjAwVWczVTZOYVNQeE1EajQ5SyIsIm0iOnsiciI6InByb2QtdXMtZWFzdC0wIn19' : 'glc_eyJvIjoiOTk0MjI2IiwibiI6Im5ld3Rva2VuLWhlbGxvd29ybGRyb3IiLCJrIjoiMzIwTG02MDkyNUprZTRhTXhXa2RBVjF4IiwibSI6eyJyIjoicHJvZC11cy1lYXN0LTAifX0='%>
 log_file_path: 'log/development.log'
 logs_type: '%w(ERROR WARN FATAL INFO DEBUG)'
 intercept_logs: true
