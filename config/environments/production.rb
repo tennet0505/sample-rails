@@ -1,4 +1,8 @@
 require "active_support/core_ext/integer/time"
+require 'rails_loki_exporter'
+
+config_file_path = File.join(Rails.root, 'config', 'config.yml')
+exporter_logger = RailsLokiExporter.create_logger(config_file_path)
 
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
@@ -86,6 +90,12 @@ Rails.application.configure do
     logger           = ActiveSupport::Logger.new(STDOUT)
     logger.formatter = config.log_formatter
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
+  end
+
+  if ENV["EXPORT_TO_LOKI"].present?
+    config.logger = exporter_logger
+    Rails.logger = exporter_logger
+    ActiveRecord::Base.logger = exporter_logger
   end
 
   # Do not dump schema after migrations.
