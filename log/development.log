@@ -1652,3 +1652,43 @@ Completed 200 OK in 398ms (Views: 382.4ms | ActiveRecord: 0.0ms | Allocations: 1
 
 
 Filter chain halted as :authenticate rendered or redirected
+Started GET "/" for 127.0.0.1 at 2024-03-21 17:14:56 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/olegten/.rvm/gems/ruby-3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/olegten/.rvm/gems/ruby-3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.3ms | Allocations: 489)
+Completed 200 OK in 17ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 4219)
+
+
+Started GET "/" for 127.0.0.1 at 2024-03-21 17:14:58 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/olegten/.rvm/gems/ruby-3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/olegten/.rvm/gems/ruby-3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 272)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 905)
+
+
+Started GET "/log_test/log_messages" for 127.0.0.1 at 2024-03-21 17:15:24 +0100
+Processing by LogTestController#log_messages as HTML
+[DEBUG] This is a debug message from the controller.
+[INFO] This is an info message from the controller.
+[WARN] This is a warning message from the controller.
+[ERROR] This is an error message from the controller.
+[FATAL] This is a fatal error message from the controller.
+This is an info message from the controller.
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 7)
+Completed 200 OK in 8ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 631)
+
+
+Started GET "/log_test/log_messages" for 127.0.0.1 at 2024-03-21 17:15:25 +0100
+Processing by LogTestController#log_messages as HTML
+[DEBUG] This is a debug message from the controller.
+[INFO] This is an info message from the controller.
+[WARN] This is a warning message from the controller.
+[ERROR] This is an error message from the controller.
+[FATAL] This is a fatal error message from the controller.
+This is an info message from the controller.
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 233)
+
+
